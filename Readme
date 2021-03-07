@@ -1,0 +1,16 @@
+Project name: "Sports Products Store". This project is a kind of application for working and sorting the products of the store and employees. The application is directly connected to the database and has many functions. These functions are designed to work with store data, for example: show all products, add a product, view all employees, etc.
+  The application consists of 7 objects :
+1)  Main
+2)  MyApplication
+3)  MRepository
+4)  MController
+5)  Product
+6)  Employee
+7)  DataBase
+  Сlass “Main” is the "final room" in which everything that was built is connected into one and performs the necessary actions. This is where our app starts.
+  Class “MyApplication” is a class that works directly with the user. Here the user chooses what actions he wants to do. This class contains functions that ask the user to enter data and the same functions give the answer.
+  Class “Mrepository” is the class where all the work takes place. This class works directly with the database. We used various queries of the type of preparedstatement, statement, resultset, and other commands related to jdbc.
+  Class “Mcontroller” is a bridge that connects the application and the reposiory. It is here that you can find out which responses the user will receive and which functions will start working.
+  Class “Product” is the main class that stores all product data such as the product id, product price, etc. This class consists of getters and setters, constuctors and toString function.
+  Class “Employee” is similar to the product class, but takes a slightly different value. It also consists of getters and setters, constructors and the toString function.
+  Class “DataBase” is our guide to the database. It combines the database and our project itself. Here we enter a link to the database and write its password.
