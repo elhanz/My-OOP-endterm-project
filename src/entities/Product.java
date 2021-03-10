@@ -8,7 +8,7 @@ public class Product {
     private String brand;
     private String size;
     private int quantity;
-    private int price;
+    private int price;//check
 
     public Product(int product_id, String product_type, String description, String brand, String size, int quantity, int price) {//to show products
         this.product_id = product_id;
